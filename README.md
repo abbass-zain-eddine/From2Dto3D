@@ -1,6 +1,6 @@
 # 2D to 3D Point Cloud Image Generator
 
-This small project utilizes Hugging Face pretrained models to generate a 3D point cloud image from a 2D image.
+This small project utilizes Hugging Face pretrained models to generate a 3D point cloud image from a 2D image. Then use it to generate a 3D mesh.
 
 ## How to Use
 
@@ -12,9 +12,12 @@ This small project utilizes Hugging Face pretrained models to generate a 3D poin
      ```
 
 2. **Run the Project:**
-   - After installing the required packages, simply run the following command:
+   - After installing the required packages, you can run the project using the following command:
      ```
-     python main.py "path/to/2D/image"
+     python main.py --image_path "path/to/2D/image" --save_path "path/to/save/3D/image"
      ```
-   Replace `"path/to/2D/image"` with the actual path to your 2D image file.
+     Replace `"path/to/2D/image"` with the actual path to your 2D image file, and `"path/to/save/3D/image"` with the desired path to save the generated 3D point cloud image.
 
+3. **Example:**
+   ```bash
+   python main.py --image_path "/From2Dto3D/input/desk-plants.jpg" --save_path "/From2Dto3D/output"
