@@ -21,3 +21,12 @@ This small project utilizes Hugging Face pretrained models to generate a 3D poin
 3. **Example:**
    ```bash
    python main.py --image_path "/From2Dto3D/input/desk-plants.jpg" --save_path "/From2Dto3D/output"
+## Input image:
+  <img src="input/desk-plants.jpg">
+
+## Output image:
+  <img src="output/view1.png">
+  <img src="output/view2.png">
+
+4. **Note:**
+    This output can be enhanced by using better models and more processing methods. 
